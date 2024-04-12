@@ -79,3 +79,59 @@ The Hospital Management System will cover the following modules:
 •	Patients: Individuals receiving medical services at the hospital.
 •	Insurance Providers: External entities responsible for processing insurance claims and coverage verification.
 •	Government Health Agencies: External systems responsible for regulatory compliance and reporting.
+
+3.0 Functional Requirements
+3.1. Patient Management
+•	FR-1: Allow administrators to add, modify, and delete patient records.
+•	FR-2: Provide patients with the ability to register, update their personal information, and view their medical history.
+•	FR-3: Generate unique patient identifiers for new registrations.
+
+3.2. Appointment and Scheduling
+
+•	FR-4: Enable patients to request appointments online and check appointment availability.
+•	FR-5: Allow medical staff to schedule appointments, assign doctors, and manage appointment status.
+•	FR-6: Send appointment reminders to patients via email or SMS.
+•	3.3. Medical Records Management
+
+•	FR-7: Enable medical staff to create and update electronic medical records for patients.
+•	FR-8: Provide medical staff with access to patient medical history, including diagnoses, treatments, and prescriptions.
+•	FR-9: Support uploading and storage of medical documents, such as lab reports and imaging results.
+
+3.4. Laboratory and Diagnostic Tests
+
+•	FR-10: Enable medical staff to order laboratory and diagnostic tests for patients.
+•	FR-11: Facilitate the communication of test requests and results between medical staff and laboratory technicians.
+•	FR-12: Allow medical staff to view and interpret test results and add them to patient records.
+
+3.5. Inventory Management
+
+•	FR-13: Enable hospital staff to manage inventory levels of medical supplies, medications, and equipment.
+•	FR-14: Automatically generate purchase orders or notifications for low stock items.
+•	FR-15: Track and manage the movement of inventory, including receiving, storage, and usage.
+
+3.6. Billing and Invoicing
+•	FR-16: Generate accurate bills and invoices for patient services based on medical procedures, treatments, and medications.
+•	FR-17: Integrate with insurance providers to verify coverage, process claims, and handle billing inquiries.
+•	FR-18: Provide patients with itemized bills and payment options, including online payment gateways.
+
+
+
+
+
+
+4.0 Performance Requirements
+•	PR-1: The system should support concurrent access by multiple users without performance degradation.
+•	PR-2: Response times for common tasks (e.g., appointment scheduling, medical record retrieval) should be within acceptable limits (e.g., <2 seconds).
+
+5.0 Design Constraints
+5.1. Security Requirements
+•	SR-1: Implement role-based access control (RBAC) to restrict access to sensitive information based on user roles.
+•	SR-2: Use encryption to secure data transmission over the network (e.g., HTTPS).
+•	SR-3: Implement data backup and recovery procedures to ensure data integrity and availability.
+5.2. Usability Requirements
+•	UR-1: The user interface should be intuitive and user-friendly, requiring minimal training for users to navigate and perform tasks.
+•	UR-2: Provide context-sensitive help and tooltips to assist users in completing tasks efficiently.
+
+5.3. Reliability Requirements
+•	RR-1: The system should be available 24/7 with minimal downtime for maintenance (e.g., <99.9% uptime).
+•	RR-2: Implement error handling and logging mechanisms to capture and report system errors for troubleshooting.
