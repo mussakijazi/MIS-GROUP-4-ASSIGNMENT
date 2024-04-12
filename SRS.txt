@@ -46,3 +46,22 @@ Background: MIS Hospital is a medium-sized healthcare facility that provides a w
 2.4 Integration:
 •	The system should integrate with external systems such as laboratory systems for retrieving test results and with billing systems for seamless financial transactions.
 •	It should provide APIs or interfaces to enable interoperability with other healthcare systems and technologies.
+
+
+
+
+
+SRS DOCUMENTATION 
+1.0 Introduction
+1.1. Purpose
+The purpose of the Hospital Management System is to automate and streamline the management of hospital operations, patient records, medical staff, scheduling, and billing. This web-based application provides a centralized platform for managing patient appointments, medical records, laboratory tests, inventory, and financial transactions. Additionally, it facilitates communication with external systems such as insurance providers and government health agencies.
+
+1.2. Scope
+The Hospital Management System will cover the following modules:
+•	Patient Management
+•	Appointment and Scheduling
+•	Medical Records Management
+•	Laboratory and Diagnostic Tests
+•	Inventory Management
+•	Billing and Invoicing
+
