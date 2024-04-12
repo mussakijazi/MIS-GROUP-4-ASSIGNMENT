@@ -1,0 +1,48 @@
+
+Hello team we are required to prepare SRS document based on the client requirements below
+CLIENT REQUIREMENTS
+
+Client: MIS Hospital
+Background: MIS Hospital is a medium-sized healthcare facility that provides a wide range of medical services to its patients. The hospital currently relies on manual and paper-based processes for managing patient records, appointment scheduling, billing, and other administrative tasks. As the hospital continues to grow, the client recognizes the need for an efficient and reliable Hospital Management System (HMS) to streamline operations and improve patient care.
+
+1.0 Functional Requirements:
+1.1 Patient Management:
+•	The system should allow registration and maintenance of patient records, including personal details, medical history, and contact information.
+•	It should support the scheduling and management of patient appointments, including the ability to view, modify, and cancel appointments.
+•	The system should enable the retrieval and tracking of patient medical records, including diagnoses, treatments, and test results.
+
+1.2 Doctor and Staff Management:
+•	The system should facilitate the management of doctor and staff profiles, including their specialties, availability, and contact details.
+•	It should support appointment scheduling and coordination for doctors and staff members.
+•	The system should provide a messaging or notification feature to facilitate communication between doctors, staff, and patients.
+
+1.3 Inventory and Pharmacy Management:
+•	The system should allow tracking and management of hospital inventory, including medicines, medical equipment, and supplies.
+•	It should support automated reordering of inventory items when stock levels fall below a predefined threshold.
+•	The system should incorporate a pharmacy management module to handle medication dispensing, stock management, and prescription tracking.
+
+1.4 Billing and Insurance:
+•	The system should generate accurate and detailed bills for medical services rendered to patients, including consultation fees, procedures, medications, and any additional charges.
+•	It should integrate with insurance systems to verify patient coverage, process insurance claims, and provide real-time updates on insurance eligibility and claims status.
+•	The system should support different payment methods and generate invoices and receipts for patients.
+
+2.0 Non-Functional Requirements:
+2.1 Usability:
+•	The system should have an intuitive and user-friendly interface to facilitate easy navigation and minimize the learning curve for hospital staff.
+•	It should provide contextual help and tooltips to assist users in completing tasks efficiently.
+•	The system should be accessible via desktop computers and mobile devices to ensure flexibility and convenience for users.
+
+2.2 Reliability:
+•	The system should be available 24/7 with minimal downtime for maintenance or upgrades.
+•	It should implement robust error handling and logging mechanisms to capture and report system errors for troubleshooting purposes.
+•	Data integrity and security measures, such as backups and encryption, should be in place to protect patient information.
+
+
+2.3 Performance:
+•	The system should handle a significant number of simultaneous users and ensure fast response times for queries and operations.
+•	It should be scalable to accommodate future growth and increasing data volumes without compromising performance.
+•	The system should have efficient search and retrieval capabilities to quickly locate patient records and other relevant information.
+
+2.4 Integration:
+•	The system should integrate with external systems such as laboratory systems for retrieving test results and with billing systems for seamless financial transactions.
+•	It should provide APIs or interfaces to enable interoperability with other healthcare systems and technologies.
