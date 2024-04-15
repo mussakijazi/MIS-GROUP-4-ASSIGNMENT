@@ -135,3 +135,26 @@ The Hospital Management System will cover the following modules:
 5.3. Reliability Requirements
 •	RR-1: The system should be available 24/7 with minimal downtime for maintenance (e.g., <99.9% uptime).
 •	RR-2: Implement error handling and logging mechanisms to capture and report system errors for troubleshooting.
+
+
+
+6.0 External Interface Requirements
+•	User Interface: User-friendly interface accessible via desktop computers and mobile devices.
+•	Database: Backend database to store patient information, medical records, appointment details, and billing information.
+•	External Systems: Integration with external systems such as laboratory systems for test results and insurance systems for claims processing.
+
+7.0 Glossary
+•	Patient: An individual receiving medical treatment or care at the hospital.
+•	Doctor: Medical professional responsible for diagnosing and treating patients.
+•	Nurse: Healthcare professional responsible for providing direct patient care and assisting doctors.
+•	Administrator: System administrator responsible for configuring and maintaining the Hospital Management System.
+•	Appointment: Scheduled time for a patient to meet with a doctor for medical consultation or treatment.
+•	Medical Records: Documentation of a patient's medical history, including diagnoses, treatments, and test results.
+•	Billing: Process of generating invoices for medical services rendered to patients and managing payment transactions.
+•	Laboratory Systems: External systems used for conducting medical tests and generating test results.
+•	Insurance Systems: External systems used for processing insurance claims and managing patient insurance information.
+
+8.0 Appendix
+•	Use Case Diagram: Diagram illustrating the interactions between system actors (users) and the Hospital Management System.
+•	Entity-Relationship Diagram (ERD): Diagram depicting the relationships between various entities (e.g., patients, doctors, medical records) in the system     database
+
