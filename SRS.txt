@@ -156,5 +156,6 @@ The Hospital Management System will cover the following modules:
 
 8.0 Appendix
 •	Use Case Diagram: Diagram illustrating the interactions between system actors (users) and the Hospital Management System.
-•	Entity-Relationship Diagram (ERD): Diagram depicting the relationships between various entities (e.g., patients, doctors, medical records) in the system     database
+•	Entity-Relationship Diagram (ERD): Diagram depicting the relationships between various entities(e.g.,patients,doctors,medicalrecords) 
+        in the system database.
 
